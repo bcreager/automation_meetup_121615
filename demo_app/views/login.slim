@@ -1,0 +1,20 @@
+doctype html
+html lang="en"
+  head
+    title Automation Framework Test App
+    link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" /
+    link rel="stylesheet" href="/css/signin.css" /
+    script src="/js/jquery-1.10.2.min.js"
+    script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"
+
+  body
+    #container
+      form class="form-signin" action='/table'
+        h2 class="form-signin-heading" Demo App signin
+        label for="inputEmail" class="sr-only" Email address
+        input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus"
+        label for="inputPassword" class="sr-only" Password
+        input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required"
+        button id="login" class="btn btn-lg btn-primary btn-block" type="submit" Sign in
+
+
