@@ -1,11 +1,13 @@
-require_relative "../spec_helper"
+require_relative '../spec_helper'
+require_relative '../page_objects/chart_page'
 
 describe "Chart" do
   before(:each) do
-    @browser.goto('localhost:4567/chart')
+    @chart_page = ChartPage.new @browser
+    @chart_page.visit
   end
 
   it "should display chart on the chart page" do
-    expect(@browser.element(tag_name: 'svg').exists?).to be_truthy
+    expect(@chart_page.chart_exists?).to be_truthy
   end
 end
