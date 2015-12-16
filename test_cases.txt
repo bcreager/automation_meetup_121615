@@ -13,13 +13,13 @@ Test Case #2 - Login successful with username and password
     5. login successfully and redirected to table.html
 
 
-Test Case #3 - Table data shows on table page
+Test Case #3 - Table data should have 10 rows on table page
     1. Browse to login page
     2. enter valid user name
     3. enter valid password
     4. click login button
     5. login successfully and redirect to table.html
-    6. table should show, with 10 rows of data
+    6. table should show, with 9 rows of data with a header row, for 10 rows total
 
 
 Test Case #4 - Chart shows on chart page
