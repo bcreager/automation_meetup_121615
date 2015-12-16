@@ -32,4 +32,34 @@ Test Case #4 - Chart shows on chart page
     7. chart.html should contain chart data
 
 
+Test Case #5 - Logout
+    1. Browse to login page
+    2. enter valid user name
+    3. enter valid password
+    4. click login button
+    5. login successfully and redirect to table.html
+    6. click logout,
+    7. should redirect to login.html
+
+
+Test Case #6 - Chart link from table page
+    1. Browse to login page
+    2. enter valid user name
+    3. enter valid password
+    4. click login button
+    5. login successfully and redirect to table.html
+    6. click chart link in nav
+    7. should redirect to chart.html
+
+
+Test Case #7 - Table link from chart page
+    1. Browse to login page
+    2. enter valid user name
+    3. enter valid password
+    4. click login button
+    5. login successfully and redirect to table.html
+    6. goto chart.html
+    7. click table link in nav
+    8. should redirect to table.html
+
 
