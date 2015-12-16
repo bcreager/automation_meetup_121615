@@ -30,3 +30,6 @@ Test Case #4 - Chart shows on chart page
     5. login successfully and redirect to table.html
     6. click "Chart" link in nav
     7. chart.html should contain chart data
+
+
+
