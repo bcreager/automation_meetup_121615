@@ -2,7 +2,7 @@ require_relative 'base_page'
 
 class LoginPage < BasePage
   def visit
-    @browser.goto('http://localhost:4567/login')
+    @browser.goto("#{CONFIG['url']}/login")
   end
 
   def login(email, password)

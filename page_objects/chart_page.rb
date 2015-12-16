@@ -2,7 +2,7 @@ require_relative '../page_objects/base_page'
 
 class ChartPage < BasePage
   def visit
-    @browser.goto('http://localhost:4567/chart')
+    @browser.goto("#{CONFIG['url']}/chart")
   end
 
   def chart_exists?
